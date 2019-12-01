@@ -1,4 +1,4 @@
-ship = Stayputnik
+ship = Stayputnik Mk I
 version = 1.8.1
 description = 
 type = VAB
@@ -16,7 +16,7 @@ PART
 {
 	part = probeCoreSphere.v2_4294013634
 	partName = Part
-	persistentId = 2436380264
+	persistentId = 3539914601
 	pos = 0,3.79999995,0.200000003
 	attPos = -0.0412474908,-0.0300557613,0.0397355855
 	attPos0 = 0.0412474908,3.83005571,0.160264418
@@ -184,7 +184,7 @@ PART
 	}
 	VESSELNAMING
 	{
-		name = Stayputnik
+		name = Stayputnik Mk I
 		type = Probe
 		priority = 10
 	}
@@ -193,7 +193,7 @@ PART
 {
 	part = sensorThermometer_4293998366
 	partName = Part
-	persistentId = 2289007109
+	persistentId = 3033311632
 	pos = -0.437977821,3.88850284,0.200000033
 	attPos = 0,0,0
 	attPos0 = -0.437977821,0.0885028839,2.61055142E-08
@@ -293,7 +293,7 @@ PART
 	{
 		name = KOSNameTag
 		isEnabled = True
-		nameTag = 
+		nameTag = stayputnik-science
 		stagingEnabled = True
 		EVENTS
 		{
@@ -310,7 +310,7 @@ PART
 {
 	part = sensorBarometer_4293997814
 	partName = Part
-	persistentId = 1014114452
+	persistentId = 446598811
 	pos = 0.432936102,3.86898685,0.200000033
 	attPos = 0,0,0
 	attPos0 = 0.432936102,0.0689868927,2.58050044E-08
@@ -410,7 +410,7 @@ PART
 	{
 		name = KOSNameTag
 		isEnabled = True
-		nameTag = 
+		nameTag = stayputnik-science
 		stagingEnabled = True
 		EVENTS
 		{
@@ -427,7 +427,7 @@ PART
 {
 	part = ServiceBay.125.v2_4294004116
 	partName = Part
-	persistentId = 4286169356
+	persistentId = 71771744
 	pos = 0,3.77551985,0.200000003
 	attPos = 0,-0.0182242393,0
 	attPos0 = 0,-0.0244801044,0
@@ -571,7 +571,7 @@ PART
 {
 	part = sensorAccelerometer_4293997596
 	partName = Part
-	persistentId = 582621124
+	persistentId = 3514271496
 	pos = 0.436304718,3.49694395,0.200000033
 	attPos = 0,0,0
 	attPos0 = 0.436304718,-0.278575897,2.60057895E-08
@@ -688,7 +688,7 @@ PART
 {
 	part = rcsTankMini_4293857342
 	partName = Part
-	persistentId = 1380447831
+	persistentId = 1351200652
 	pos = 0,3.90708542,0.200000003
 	attPos = 0,0.0690655708,0
 	attPos0 = 0,0.0625,0
@@ -769,7 +769,7 @@ PART
 {
 	part = KR-2042_4294595342
 	partName = Part
-	persistentId = 2432938122
+	persistentId = 3862856299
 	pos = 0,3.72258544,0.200000003
 	attPos = 0,0,0
 	attPos0 = 0,-0.184499979,0
@@ -981,7 +981,7 @@ PART
 {
 	part = sasModule_4293466910
 	partName = Part
-	persistentId = 3405035706
+	persistentId = 3936515062
 	pos = 0,3.55047464,0.200000003
 	attPos = 0,0,0
 	attPos0 = 0,-0.172110796,0
@@ -1089,7 +1089,7 @@ PART
 {
 	part = adapterSmallMiniTall_4293928472
 	partName = Part
-	persistentId = 1172955581
+	persistentId = 3896372551
 	pos = 0,4.45052004,0.200000003
 	attPos = 0,0,0
 	attPos0 = 0,0.675000191,0
@@ -1179,7 +1179,7 @@ PART
 {
 	part = parachuteSingle_4293932058
 	partName = Part
-	persistentId = 149307148
+	persistentId = 1827375961
 	pos = 0,4.77810144,0.200000003
 	attPos = 0,0,0
 	attPos0 = 0,0.327581406,0
@@ -1232,7 +1232,7 @@ PART
 		isEnabled = True
 		persistentState = STOWED
 		animTime = 0
-		minAirPressureToOpen = 0.550000012
+		minAirPressureToOpen = 0.600000024
 		deployAltitude = 1000
 		spreadAngle = 7
 		automateSafeDeploy = 0
@@ -1323,7 +1323,7 @@ PART
 {
 	part = linearRcs_4293884586
 	partName = Part
-	persistentId = 1507122698
+	persistentId = 2567207075
 	pos = -0.401642412,4.58382988,0.200000033
 	attPos = 0,0,0
 	attPos0 = -0.401642412,0.133309841,2.98023224E-08
@@ -1441,7 +1441,7 @@ PART
 {
 	part = linearRcs_4293881220
 	partName = Part
-	persistentId = 794565620
+	persistentId = 3573339521
 	pos = 7.4505806E-09,4.58382988,0.60164237
 	attPos = 0,0,0
 	attPos0 = 7.4505806E-09,0.133309841,0.401642382
@@ -1559,7 +1559,7 @@ PART
 {
 	part = linearRcs_4293881144
 	partName = Part
-	persistentId = 963337167
+	persistentId = 1767814897
 	pos = 0.401642412,4.58382988,0.199999943
 	attPos = 0,0,0
 	attPos0 = 0.401642412,0.133309841,-5.96046448E-08
@@ -1677,7 +1677,7 @@ PART
 {
 	part = linearRcs_4293881068
 	partName = Part
-	persistentId = 2728791716
+	persistentId = 944356659
 	pos = -5.21540642E-08,4.58382988,-0.201642379
 	attPos = 0,0,0
 	attPos0 = -5.21540642E-08,0.133309841,-0.401642382
@@ -1795,7 +1795,7 @@ PART
 {
 	part = Decoupler.1_4293995532
 	partName = Part
-	persistentId = 625265570
+	persistentId = 2215936539
 	pos = 0,3.42551994,0.200000003
 	attPos = 0,0,0
 	attPos0 = 0,-0.349999905,0
@@ -1933,7 +1933,7 @@ PART
 {
 	part = kOSMachine1m_4294000640
 	partName = Part
-	persistentId = 3329251164
+	persistentId = 2190512076
 	pos = 0,3.20251989,0.200000003
 	attPos = 0,0,0
 	attPos0 = 0,-0.22300005,0
@@ -2057,7 +2057,7 @@ PART
 {
 	part = solidBooster.sm.v2_4293994864
 	partName = Part
-	persistentId = 2124600663
+	persistentId = 3963245230
 	pos = 0,2.2720201,0.200000003
 	attPos = 0,0,0
 	attPos0 = 0,-0.930499792,0
@@ -2283,7 +2283,7 @@ PART
 {
 	part = basicFin_4293922336
 	partName = Part
-	persistentId = 2432147158
+	persistentId = 1571403389
 	pos = 5.58793545E-08,2.16924167,-0.424334109
 	attPos = 0,0,0
 	attPos0 = 5.45810188E-08,-0.102778435,-0.624334097
@@ -2369,7 +2369,7 @@ PART
 {
 	part = basicFin_4293922058
 	partName = Part
-	persistentId = 2249758455
+	persistentId = 1223034439
 	pos = -0.624334037,2.16924167,0.199999914
 	attPos = 0,0,0
 	attPos0 = -0.624334037,-0.102778435,-9.17942273E-08
@@ -2455,7 +2455,7 @@ PART
 {
 	part = basicFin_4293922010
 	partName = Part
-	persistentId = 1956041839
+	persistentId = 3199802040
 	pos = 0,2.16924167,0.824334085
 	attPos = 0,0,0
 	attPos0 = 1.44551593E-15,-0.102778435,0.624334097
@@ -2541,7 +2541,7 @@ PART
 {
 	part = basicFin_4293921962
 	partName = Part
-	persistentId = 50401744
+	persistentId = 1386840959
 	pos = 0.624334037,2.16924167,0.200000018
 	attPos = 0,0,0
 	attPos0 = 0.624334037,-0.102778435,1.73678032E-08
@@ -2627,7 +2627,7 @@ PART
 {
 	part = launchClamp1_4293686374
 	partName = Part
-	persistentId = 927557058
+	persistentId = 3793837997
 	pos = -0.998687148,0.972287655,-0.7986871
 	attPos = 0,0,0
 	attPos0 = -0.998687148,-1.29973245,-0.998687088
@@ -2771,7 +2771,7 @@ PART
 {
 	part = launchClamp1_4294601810
 	partName = Part
-	persistentId = 76793067
+	persistentId = 2197998112
 	pos = -0.998687088,0.972287655,1.19868696
 	attPos = 0,0,0
 	attPos0 = -0.998687088,-1.29973245,0.998686969
@@ -2915,7 +2915,7 @@ PART
 {
 	part = launchClamp1_4294601688
 	partName = Part
-	persistentId = 2624402460
+	persistentId = 2585095199
 	pos = 0.998687267,0.972287655,1.19868696
 	attPos = 0,0,0
 	attPos0 = 0.998687267,-1.29973245,0.998686969
@@ -3059,7 +3059,7 @@ PART
 {
 	part = launchClamp1_4294601566
 	partName = Part
-	persistentId = 2821981002
+	persistentId = 1470371068
 	pos = 0.998687029,0.972287655,-0.79868716
 	attPos = 0,0,0
 	attPos0 = 0.998687029,-1.29973245,-0.998687148
