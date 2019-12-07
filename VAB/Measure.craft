@@ -2,7 +2,7 @@ ship = Measure
 version = 1.8.1
 description = 
 type = VAB
-size = 4.00000381,5.1304512,4.00000095
+size = 4.00001144,5.1304512,4.00000095
 steamPublishedFileId = 0
 persistentId = 271926763
 rot = 0,0,0,0
@@ -1506,7 +1506,7 @@ PART
 	part = structuralPanel2_4293969076
 	partName = Part
 	persistentId = 743289730
-	pos = -1.96889412,1.11953926,-1.87633467
+	pos = -1.96890128,1.11953926,-1.87633467
 	attPos = 3.55422316E-07,0.0123338699,0.00206291676
 	attPos0 = -1.17003829E-07,-0.0123338699,-2.0020628
 	rot = 5.9604659E-08,-1.00000012,8.94069885E-08,1.1920929E-07
@@ -1577,7 +1577,7 @@ PART
 	part = trussAdapter_4293968560
 	partName = Part
 	persistentId = 4119351934
-	pos = -1.9688946,0.681208611,-1.87633467
+	pos = -1.96890175,0.681208611,-1.87633467
 	attPos = 0,0,0
 	attPos0 = 4.09881068E-07,-0.43833065,7.83797631E-08
 	rot = -1.00000012,-7.10542736E-15,4.23516474E-22,-7.10542736E-15
@@ -1646,7 +1646,7 @@ PART
 	part = launchClamp1_4293100278
 	partName = Part
 	persistentId = 2848192293
-	pos = 1.16339457,2.3436079,-1.87633455
+	pos = 1.16340351,2.3436079,-1.87633455
 	attPos = 0,0,0
 	attPos0 = 1.13228393,-1.33887076,1.19209432E-07
 	rot = 0,0.707106888,0,-0.707106888
@@ -1787,7 +1787,7 @@ PART
 	part = radialDecoupler_4293203752
 	partName = Part
 	persistentId = 3138533886
-	pos = -0.304200888,3.66646671,-1.87633467
+	pos = -0.304203123,3.66646671,-1.87633467
 	attPos = 0,0,0
 	attPos0 = -0.33530888,-0.0160119534,1.13686865E-13
 	rot = 0,0,0,1.00000012
@@ -1926,7 +1926,7 @@ PART
 	part = sensorBarometer_4294125296
 	partName = Part
 	persistentId = 345174255
-	pos = 0.03110829,3.77539182,-1.55056226
+	pos = 0.03110829,3.77539182,-1.55056047
 	attPos = 0,0,0
 	attPos0 = -4.79616482E-14,0.0929131508,0.325772285
 	rot = 0,1.00000012,-2.68220901E-07,0
@@ -2547,7 +2547,8 @@ PART
 	modCost = 366
 	modMass = 7.32435001E-05
 	modSize = 0,0,0
-	attN = bottom,Null_0_0|-0.0810000002|0_0|-1|0_0|-0.0810000002|0_0|-1|0
+	link = longAntenna_4293719426
+	attN = bottom,longAntenna_4293719426_0|-0.0810000002|0_0|-1|0_0|-0.0810000002|0_0|-1|0
 	attN = top,batteryBankMini_4293905370_0|-0.00300000003|0_0|1|0_0|-0.00300000003|0_0|1|0
 	EVENTS
 	{
@@ -2583,7 +2584,7 @@ PART
 		baseModuleMass = 0
 		additionalCost = 366
 		MaxPartId = 100
-		RequiredPower = 0.0399999991
+		RequiredPower = 0.400000006
 		stagingEnabled = True
 		activated = True
 		EVENTS
@@ -2730,5 +2731,128 @@ PART
 		hideFlow = False
 		isVisible = True
 		flowMode = Both
+	}
+}
+PART
+{
+	part = longAntenna_4293719426
+	partName = Part
+	persistentId = 3798265023
+	pos = -1.96889174,2.48524141,0.123665288
+	attPos = 0,0,0
+	attPos0 = 0,-0.0809998512,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 1,0,0,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,KR-2042_4293903424_0|0|0_0|-1|0_0|0|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleDeployableAntenna
+		isEnabled = True
+		currentRotation = (-0.707106829, 0, 0, 0.707106829)
+		storedAnimationTime = 1
+		storedAnimationSpeed = 0
+		deployState = EXTENDED
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ExtendPanelsAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ExtendAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RetractAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleDataTransmitter
+		isEnabled = True
+		xmitIncomplete = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartTransmissionAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = measure-antenna
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
 	}
 }
