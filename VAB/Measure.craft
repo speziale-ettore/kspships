@@ -2,7 +2,7 @@ ship = Measure
 version = 1.8.1
 description = 
 type = VAB
-size = 4.00001144,5.1304512,4.00000095
+size = 4.00001383,6.87810993,4.00000095
 steamPublishedFileId = 0
 persistentId = 271926763
 rot = 0,0,0,0
@@ -17,9 +17,9 @@ PART
 	part = probeCoreSphere.v2_4293918412
 	partName = Part
 	persistentId = 51340284
-	pos = 0.03110829,2.48172092,0.123665288
+	pos = -0.285413563,5.46948338,0.403084934
 	attPos = 0,0,0
-	attPos0 = 0.03110829,2.48172092,0.123665288
+	attPos0 = -0.285413563,5.46948338,0.403084934
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -44,8 +44,8 @@ PART
 	link = solarPanels5_4293909314
 	link = solarPanels5_4293909280
 	link = solarPanels5_4293909246
-	link = trussAdapter_4293908864
-	attN = bottom,trussAdapter_4293908864_0|-0.274479985|0_0|-1|0_0|-0.274479985|0_0|-1|0
+	link = trussPiece3x_4292117616
+	attN = bottom,trussPiece3x_4292117616_0|-0.274479985|0_0|-1|0_0|-0.274479985|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -198,7 +198,7 @@ PART
 	part = solarPanels5_4293909794
 	partName = Part
 	persistentId = 65327012
-	pos = -0.360736638,2.89477158,0.12366531
+	pos = -0.677258492,5.88253403,0.403084964
 	attPos = 0,0,0
 	attPos0 = -0.391844928,0.413050652,2.33557795E-08
 	rot = -0.17974183,-0.683880806,-0.179741815,0.683880746
@@ -310,7 +310,7 @@ PART
 	part = solarPanels5_4293909382
 	partName = Part
 	persistentId = 1600626441
-	pos = -0.164814159,2.89477158,0.463012934
+	pos = -0.481335998,5.88253403,0.742432594
 	attPos = 0,0,0
 	attPos0 = -0.195922449,0.413050652,0.339347661
 	rot = -0.245531902,-0.250317782,-0.0657900572,0.934198499
@@ -422,7 +422,7 @@ PART
 	part = solarPanels5_4293909348
 	partName = Part
 	persistentId = 3921821132
-	pos = 0.227030814,2.89477158,0.463012934
+	pos = -0.0894910395,5.88253403,0.742432594
 	attPos = 0,0,0
 	attPos0 = 0.195922524,0.413050652,0.339347631
 	rot = -0.245531902,0.250317752,0.0657900944,0.934198558
@@ -534,7 +534,7 @@ PART
 	part = solarPanels5_4293909314
 	partName = Part
 	persistentId = 3168120842
-	pos = 0.422953218,2.89477158,0.123665228
+	pos = 0.106431365,5.88253403,0.403084874
 	attPos = 0,0,0
 	attPos0 = 0.391844928,0.413050652,-5.76119525E-08
 	rot = -0.1797418,0.683880806,0.179741845,0.683880746
@@ -646,7 +646,7 @@ PART
 	part = solarPanels5_4293909280
 	partName = Part
 	persistentId = 22792079
-	pos = 0.227030739,2.89477158,-0.215682432
+	pos = -0.0894910991,5.88253403,0.0637371838
 	attPos = 0,0,0
 	attPos0 = 0.195922449,0.413050652,-0.33934772
 	rot = -0.0657900497,0.934198558,0.245531902,0.250317723
@@ -758,7 +758,7 @@ PART
 	part = solarPanels5_4293909246
 	partName = Part
 	persistentId = 1620595981
-	pos = -0.164814144,2.89477158,-0.215682402
+	pos = -0.481335998,5.88253403,0.0637372434
 	attPos = 0,0,0
 	attPos0 = -0.195922434,0.413050652,-0.33934769
 	rot = 0.0657900721,0.934198558,0.245531902,-0.250317633
@@ -867,12 +867,12 @@ PART
 }
 PART
 {
-	part = trussAdapter_4293908864
+	part = trussPiece3x_4292117616
 	partName = Part
-	persistentId = 2945047746
-	pos = 0.03110829,1.55786991,0.123665288
+	persistentId = 1245499441
+	pos = -0.285413563,3.71976566,0.403084934
 	attPos = 0,0,0
-	attPos0 = 0,-0.923851013,0
+	attPos0 = 0,-1.74971771,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -891,9 +891,10 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	link = structuralPanel2_4293908490
-	attN = bottom,structuralPanel2_4293908490_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
-	attN = top,probeCoreSphere.v2_4293918412_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
+	link = launchClamp1_4292117550
+	link = trussAdapter_4293908864
+	attN = bottom,trussAdapter_4293908864_0|-1.47523797|0_0|-1|0_0|-1.47523797|0_0|-1|0
+	attN = top,probeCoreSphere.v2_4293918412_0|1.47523797|0_0|1|0_0|1.47523797|0_0|1|0
 	EVENTS
 	{
 	}
@@ -937,719 +938,13 @@ PART
 }
 PART
 {
-	part = structuralPanel2_4293908490
+	part = launchClamp1_4292117550
 	partName = Part
-	persistentId = 2774003699
-	pos = 0.03110829,1.11953926,0.123665288
+	persistentId = 3172944118
+	pos = 0.846228659,2.3625927,0.403084934
 	attPos = 0,0,0
-	attPos0 = 0,-0.43833065,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = structuralPanel2_4293908048
-	link = structuralPanel2_4293907284
-	link = trussAdapter_4293969594
-	attN = top,trussAdapter_4293908864_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
-	attN = bottom,trussAdapter_4293969594_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = structuralPanel2_4293908048
-	partName = Part
-	persistentId = 4174955222
-	pos = -1.96889174,1.11953926,0.123665288
-	attPos = 0.00282239914,-0.000611305237,-5.97728516E-08
-	attPos0 = -2.0028224,0.000611305237,5.97728516E-08
-	rot = 0,-1,0,0
-	attRot = 0,0,0,1
-	attRot0 = 0,-1,0,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = trussAdapter_4293969458
-	link = trussAdapter_4293906278
-	srfN = srfAttach,structuralPanel2_4293908490,panel,-1|0|0,-1|0|0,-1|0|0
-	attN = top,trussAdapter_4293906278_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
-	attN = bottom,trussAdapter_4293969458_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = structuralPanel2_4293907284
-	partName = Part
-	persistentId = 3349703157
-	pos = 0.03110829,1.11953926,-1.87633467
-	attPos = 2.06823984E-07,-0.00566101074,0.00219511986
-	attPos0 = -2.06823984E-07,0.00566101074,-2.00219512
-	rot = -6.3220277E-08,0.707106829,-6.3220277E-08,0.707106829
-	attRot = 0,0,0,1
-	attRot0 = -6.3220277E-08,0.707106829,-6.3220277E-08,0.707106829
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = trussAdapter_4293210056
-	link = trussAdapter_4293969316
-	link = structuralPanel2_4293969076
-	srfN = srfAttach,structuralPanel2_4293908490,panel,-1|0|0,-1|0|0,-1|0|0
-	attN = top,trussAdapter_4293210056_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
-	attN = bottom,trussAdapter_4293969316_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = trussAdapter_4293210056
-	partName = Part
-	persistentId = 661689879
-	pos = 0.03110829,1.55786991,-1.87633467
-	attPos = 0,0,0
-	attPos0 = -7.83796068E-08,0.43833065,0
-	rot = 0,0,0,1.00000012
-	attRot = 0,0,0,1
-	attRot0 = 6.3220277E-08,-0.707106829,6.3220277E-08,0.707106829
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = trussPiece3x_4293210546
-	attN = bottom,structuralPanel2_4293907284_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
-	attN = top,trussPiece3x_4293210546_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = trussPiece3x_4293210546
-	partName = Part
-	persistentId = 1904865893
-	pos = 0.03110829,3.68247867,-1.87633467
-	attPos = 0,0,0
-	attPos0 = 5.68434324E-14,2.12460876,-1.13686865E-13
-	rot = 0,0,0,1.00000012
-	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = launchClamp1_4293100278
-	link = radialDecoupler_4293203752
-	link = sensorBarometer_4294125296
-	attN = bottom,trussAdapter_4293210056_0|-1.47523797|0_0|-1|0_0|-1.47523797|0_0|-1|0
-	attN = top,Null_0_0|1.47523797|0_0|1|0_0|1.47523797|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = trussAdapter_4293969594
-	partName = Part
-	persistentId = 2379573098
-	pos = 0.03110829,0.681208611,0.123665288
-	attPos = 0,0,0
-	attPos0 = 0,-0.43833065,0
-	rot = -1,0,0,0
-	attRot = -0.99999994,0,0,0
-	attRot0 = -1,0,0,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = bottom,structuralPanel2_4293908490_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
-	attN = top,Null_0_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = trussAdapter_4293969458
-	partName = Part
-	persistentId = 3673111627
-	pos = -1.96889174,0.681208611,0.123665288
-	attPos = 0,0,0
-	attPos0 = 0,-0.43833065,0
-	rot = -1,0,0,0
-	attRot = -0.99999994,0,0,0
-	attRot0 = 0,0,1,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = bottom,structuralPanel2_4293908048_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
-	attN = top,Null_0_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = trussAdapter_4293969316
-	partName = Part
-	persistentId = 2702174583
-	pos = 0.03110829,0.681208611,-1.87633467
-	attPos = 0,0,0
-	attPos0 = 7.83796068E-08,-0.43833065,0
-	rot = -1.00000012,0,0,0
-	attRot = -0.99999994,0,0,0
-	attRot0 = -0.707106829,-6.3220277E-08,-0.707106829,6.3220277E-08
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = bottom,structuralPanel2_4293907284_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
-	attN = top,Null_0_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = structuralPanel2_4293969076
-	partName = Part
-	persistentId = 743289730
-	pos = -1.96890128,1.11953926,-1.87633467
-	attPos = 3.55422316E-07,0.0123338699,0.00206291676
-	attPos0 = -1.17003829E-07,-0.0123338699,-2.0020628
-	rot = 5.9604659E-08,-1.00000012,8.94069885E-08,1.1920929E-07
-	attRot = 0,0,0,1
-	attRot0 = 4.21468478E-08,-0.707106888,4.21468656E-08,-0.707106769
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = trussAdapter_4293968560
-	srfN = srfAttach,structuralPanel2_4293907284,panel,-1|0|0,-1|0|0,-1|0|0
-	attN = top,Null_0_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
-	attN = bottom,trussAdapter_4293968560_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = trussAdapter_4293968560
-	partName = Part
-	persistentId = 4119351934
-	pos = -1.96890175,0.681208611,-1.87633467
-	attPos = 0,0,0
-	attPos0 = 4.09881068E-07,-0.43833065,7.83797631E-08
-	rot = -1.00000012,-7.10542736E-15,4.23516474E-22,-7.10542736E-15
-	attRot = -0.99999994,0,0,0
-	attRot0 = -1.19209275E-07,8.94069814E-08,1,-5.96046377E-08
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	attN = bottom,structuralPanel2_4293969076_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
-	attN = top,Null_0_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = launchClamp1_4293100278
-	partName = Part
-	persistentId = 2848192293
-	pos = 1.16340351,2.3436079,-1.87633455
-	attPos = 0,0,0
-	attPos0 = 1.13228393,-1.33887076,1.19209432E-07
-	rot = 0,0.707106888,0,-0.707106888
+	attPos0 = 1.13164222,-1.35717297,8.52651486E-14
+	rot = 0,0.707106829,0,-0.707106829
 	attRot = 0,0,0,1
 	attRot0 = 0,0.707106829,0,-0.707106829
 	mir = 1,1,1
@@ -1667,7 +962,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,trussPiece3x_4293210546,truss3x,0|1.35443699|0.806919396,0|0|-1,0|1.35443699|0.806919396
+	srfN = srfAttach,trussPiece3x_4292117616,truss3x,0|1.35443699|0.806919396,0|0|-1,0|1.35443699|0.806919396
 	EVENTS
 	{
 	}
@@ -1696,8 +991,8 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 1.19045758
-		height = 3.00375891
+		scaleFactor = 1.19798172
+		height = 3.0227437
 		stagingEnabled = True
 		towerRot = 0,-0.707106829,0,-0.707106829
 		EVENTS
@@ -1784,31 +1079,33 @@ PART
 }
 PART
 {
-	part = radialDecoupler_4293203752
+	part = trussAdapter_4293908864
 	partName = Part
-	persistentId = 3138533886
-	pos = -0.304203123,3.66646671,-1.87633467
+	persistentId = 2945047746
+	pos = -0.285413563,1.59515667,0.403084934
 	attPos = 0,0,0
-	attPos0 = -0.33530888,-0.0160119534,1.13686865E-13
-	rot = 0,0,0,1.00000012
+	attPos0 = 0,-2.12460899,0
+	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
 	rigidAttachment = False
-	istg = 0
+	istg = -1
 	resPri = 0
-	dstg = 1
-	sidx = 1
-	sqor = 0
-	sepI = 0
-	attm = 1
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
 	sameVesselCollision = False
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,trussPiece3x_4293210546,truss3x,0.00999999978|0|0,1|0|0,0.00999999978|0|0
+	link = structuralPanel2_4293908490
+	attN = bottom,structuralPanel2_4293908490_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
+	attN = top,trussPiece3x_4292117616_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
 	EVENTS
 	{
 	}
@@ -1835,17 +1132,440 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleAnchoredDecoupler
+		name = KOSNameTag
 		isEnabled = True
-		ejectionForcePercent = 100
-		isDecoupled = False
+		nameTag = 
 		stagingEnabled = True
 		EVENTS
 		{
 		}
 		ACTIONS
 		{
-			DecoupleAction
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = structuralPanel2_4293908490
+	partName = Part
+	persistentId = 2774003699
+	pos = -0.285413563,1.15682602,0.403084934
+	attPos = 0,0,0
+	attPos0 = 0,-0.43833065,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = structuralPanel2_4293908048
+	link = structuralPanel2_4293907284
+	link = trussAdapter_4293969594
+	attN = top,trussAdapter_4293908864_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
+	attN = bottom,trussAdapter_4293969594_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = structuralPanel2_4293908048
+	partName = Part
+	persistentId = 4174955222
+	pos = -2.2854135,1.15682602,0.403084934
+	attPos = 0.00282239914,-0.000611305237,-5.97728516E-08
+	attPos0 = -2.0028224,0.000611305237,5.97728516E-08
+	rot = 0,-1,0,0
+	attRot = 0,0,0,1
+	attRot0 = 0,-1,0,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussAdapter_4293969458
+	link = trussAdapter_4293906278
+	srfN = srfAttach,structuralPanel2_4293908490,panel,-1|0|0,-1|0|0,-1|0|0
+	attN = top,trussAdapter_4293906278_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
+	attN = bottom,trussAdapter_4293969458_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussAdapter_4293969458
+	partName = Part
+	persistentId = 3673111627
+	pos = -2.2854135,0.718495369,0.403084934
+	attPos = 0,0,0
+	attPos0 = 0,-0.43833065,0
+	rot = -1,0,0,0
+	attRot = -0.99999994,0,0,0
+	attRot0 = 0,0,1,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,structuralPanel2_4293908048_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
+	attN = top,Null_0_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussAdapter_4293906278
+	partName = Part
+	persistentId = 3504830235
+	pos = -2.2854135,1.59515667,0.403084934
+	attPos = 0,0,0
+	attPos0 = 0,0.438330531,0
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	attRot0 = 0,1,0,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4292124010
+	attN = bottom,structuralPanel2_4293908048_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
+	attN = top,trussPiece3x_4292124010_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4292124010
+	partName = Part
+	persistentId = 587867247
+	pos = -2.2854135,3.71976519,0.403084934
+	attPos = 0,0,0
+	attPos0 = 0,2.12460852,0
+	rot = 0,-1,0,0
+	attRot = 0,-0.99999994,0,0
+	attRot0 = 0,-1,0,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = launchClamp1_4292123970
+	link = batteryBankMini_4293905370
+	attN = bottom,trussAdapter_4293906278_0|-1.47523797|0_0|-1|0_0|-1.47523797|0_0|-1|0
+	attN = top,batteryBankMini_4293905370_0|1.47523797|0_0|1|0_0|1.47523797|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = launchClamp1_4292123970
+	partName = Part
+	persistentId = 3796047809
+	pos = -3.41705585,2.36259222,0.403084934
+	attPos = 0,0,0
+	attPos0 = 1.13164222,-1.35717297,8.52651486E-14
+	rot = 0,0.707106829,0,0.707106829
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106829,0,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 1
+	sqor = 0
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4292124010,truss3x,0|1.35443699|0.806919396,0|0|-1,0|1.35443699|0.806919396
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		scaleFactor = 1.19798148
+		height = 3.02274323
+		stagingEnabled = True
+		towerRot = 0,-0.707106829,0,0.707106829
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ReleaseClamp
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -1857,9 +1577,10 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleToggleCrossfeed
+		name = ModuleGenerator
 		isEnabled = True
-		crossfeedStatus = False
+		generatorIsActive = False
+		throttle = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1872,13 +1593,13 @@ PART
 				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
-			EnableAction
+			ActivateAction
 			{
 				actionGroup = None
 				active = False
 				wasActiveBeforePartWasAdjusted = False
 			}
-			DisableAction
+			ShutdownAction
 			{
 				actionGroup = None
 				active = False
@@ -1923,202 +1644,15 @@ PART
 }
 PART
 {
-	part = sensorBarometer_4294125296
-	partName = Part
-	persistentId = 345174255
-	pos = 0.03110829,3.77539182,-1.55056047
-	attPos = 0,0,0
-	attPos0 = -4.79616482E-14,0.0929131508,0.325772285
-	rot = 0,1.00000012,-2.68220901E-07,0
-	attRot = 0,0,0,1
-	attRot0 = 0,1,-2.68220873E-07,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	srfN = srfAttach,trussPiece3x_4293210546,truss3x,0|0|0,0|0|-1,0|0|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleEnviroSensor
-		isEnabled = True
-		sensorActive = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleScienceExperiment
-		isEnabled = True
-		Deployed = False
-		Inoperable = False
-		cooldownToGo = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			DeployAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-			ResetAction
-			{
-				actionGroup = None
-				wasActiveBeforePartWasAdjusted = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = measure-science
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = trussAdapter_4293906278
-	partName = Part
-	persistentId = 3504830235
-	pos = -1.96889174,1.55786979,0.123665288
-	attPos = 0,0,0
-	attPos0 = 0,0.438330531,0
-	rot = 0,0,0,1
-	attRot = 0,0,0,1
-	attRot0 = 0,1,0,0
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = -1
-	resPri = 0
-	dstg = 0
-	sidx = -1
-	sqor = -1
-	sepI = -1
-	attm = 0
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	link = batteryBankMini_4293905370
-	attN = bottom,structuralPanel2_4293908048_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
-	attN = top,batteryBankMini_4293905370_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-			wasActiveBeforePartWasAdjusted = False
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = KOSNameTag
-		isEnabled = True
-		nameTag = 
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = batteryBankMini_4293905370
 	partName = Part
 	persistentId = 2169638959
-	pos = -1.96889174,2.30724144,0.123665288
+	pos = -2.2854135,5.29500389,0.403084934
 	attPos = 0,0,0
-	attPos0 = 0,0.749371529,0
+	attPos0 = 0,1.5752387,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
-	attRot0 = 0,0,0,1
+	attRot0 = 0,1,0,0
 	mir = 1,1,1
 	symMethod = Radial
 	autostrutMode = Off
@@ -2140,7 +1674,7 @@ PART
 	link = batteryPack_4293904854
 	link = KR-2042_4293903424
 	attN = top,KR-2042_4293903424_0|0.100000001|0_0|1|0_0|0.100000001|0_0|1|0
-	attN = bottom,trussAdapter_4293906278_0|-0.100000001|0_0|-1|0_0|-0.100000001|0_0|-1|0
+	attN = bottom,trussPiece3x_4292124010_0|-0.100000001|0_0|-1|0_0|-0.100000001|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -2198,7 +1732,7 @@ PART
 	part = batteryPack_4293905098
 	partName = Part
 	persistentId = 1212439914
-	pos = -2.27609134,2.31999779,0.123665303
+	pos = -2.59261346,5.30776024,0.403084964
 	attPos = 0,0,0
 	attPos0 = -0.307199717,0.0127563477,1.83105353E-08
 	rot = -4.36340422E-08,0.707106829,4.36340422E-08,0.707106829
@@ -2280,7 +1814,7 @@ PART
 	part = batteryPack_4293904934
 	partName = Part
 	persistentId = 1047285902
-	pos = -1.96889174,2.31999779,0.43086499
+	pos = -2.2854135,5.30776024,0.710284948
 	attPos = 0,0,0
 	attPos0 = 0,0.0127563477,0.307199687
 	rot = 0,1,6.17078513E-08,0
@@ -2362,7 +1896,7 @@ PART
 	part = batteryPack_4293904894
 	partName = Part
 	persistentId = 1221261375
-	pos = -1.66169202,2.31999779,0.123665243
+	pos = -1.97821355,5.30776024,0.403084874
 	attPos = 0,0,0
 	attPos0 = 0.307199717,0.0127563477,-4.51667859E-08
 	rot = 4.36340457E-08,0.707106769,4.36340386E-08,-0.707106888
@@ -2444,7 +1978,7 @@ PART
 	part = batteryPack_4293904854
 	partName = Part
 	persistentId = 2325693820
-	pos = -1.96889174,2.31999779,-0.183534399
+	pos = -2.2854135,5.30776024,0.0958849788
 	attPos = 0,0,0
 	attPos0 = 0,0.0127563477,-0.307199687
 	rot = 6.17078513E-08,0,0,-1
@@ -2526,7 +2060,7 @@ PART
 	part = KR-2042_4293903424
 	partName = Part
 	persistentId = 1788670976
-	pos = -1.96889174,2.40424156,0.123665288
+	pos = -2.2854135,5.39200401,0.403084934
 	attPos = 0,0,0
 	attPos0 = 0,0.0970001221,0
 	rot = -1,0,0,0
@@ -2738,7 +2272,7 @@ PART
 	part = longAntenna_4293719426
 	partName = Part
 	persistentId = 3798265023
-	pos = -1.96889174,2.48524141,0.123665288
+	pos = -2.2854135,5.47300386,0.403084934
 	attPos = 0,0,0
 	attPos0 = 0,-0.0809998512,0
 	rot = 0,0,0,1
@@ -2844,6 +2378,1178 @@ PART
 		name = KOSNameTag
 		isEnabled = True
 		nameTag = measure-antenna
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = structuralPanel2_4293907284
+	partName = Part
+	persistentId = 3349703157
+	pos = -0.285413563,1.15682602,-1.59691501
+	attPos = 2.06823984E-07,-0.00566101074,0.00219511986
+	attPos0 = -2.06823984E-07,0.00566101074,-2.00219512
+	rot = -6.3220277E-08,0.707106829,-6.3220277E-08,0.707106829
+	attRot = 0,0,0,1
+	attRot0 = -6.3220277E-08,0.707106829,-6.3220277E-08,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussAdapter_4293210056
+	link = trussAdapter_4293969316
+	link = structuralPanel2_4293969076
+	srfN = srfAttach,structuralPanel2_4293908490,panel,-1|0|0,-1|0|0,-1|0|0
+	attN = top,trussAdapter_4293210056_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
+	attN = bottom,trussAdapter_4293969316_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussAdapter_4293210056
+	partName = Part
+	persistentId = 661689879
+	pos = -0.285413563,1.59515667,-1.59691501
+	attPos = 0,0,0
+	attPos0 = -7.83796068E-08,0.43833065,0
+	rot = 0,0,0,1.00000012
+	attRot = 0,0,0,1
+	attRot0 = 6.3220277E-08,-0.707106829,6.3220277E-08,0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4293210546
+	attN = bottom,structuralPanel2_4293907284_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
+	attN = top,trussPiece3x_4293210546_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4293210546
+	partName = Part
+	persistentId = 1904865893
+	pos = -0.285413563,3.71976566,-1.59691501
+	attPos = 0,0,0
+	attPos0 = 5.68434324E-14,2.12460876,-1.13686865E-13
+	rot = 0,0,0,1.00000012
+	attRot = 0,0,0,1
+	attRot0 = 0,0,0,1
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = sensorBarometer_4294125296
+	link = launchClamp1_4293100278
+	link = radialDecoupler_4293203752
+	attN = bottom,trussAdapter_4293210056_0|-1.47523797|0_0|-1|0_0|-1.47523797|0_0|-1|0
+	attN = top,Null_0_0|1.47523797|0_0|1|0_0|1.47523797|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = sensorBarometer_4294125296
+	partName = Part
+	persistentId = 345174255
+	pos = -0.285413563,3.81267834,-1.27114034
+	attPos = 0,0,0
+	attPos0 = -4.79616482E-14,0.0929131508,0.325772285
+	rot = 0,1.00000012,-2.68220901E-07,0
+	attRot = 0,0,0,1
+	attRot0 = 0,1,-2.68220873E-07,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4293210546,truss3x,0|0|0,0|0|-1,0|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleEnviroSensor
+		isEnabled = True
+		sensorActive = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleScienceExperiment
+		isEnabled = True
+		Deployed = False
+		Inoperable = False
+		cooldownToGo = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DeployAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ResetAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = measure-science
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = launchClamp1_4293100278
+	partName = Part
+	persistentId = 2848192293
+	pos = 0.846229255,2.3625927,-1.59691501
+	attPos = 0,0,0
+	attPos0 = 1.13164222,-1.35717297,8.52651486E-14
+	rot = 0,0.707106888,0,-0.707106888
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106829,0,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 2
+	sqor = 0
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4293210546,truss3x,0|1.35443699|0.806919396,0|0|-1,0|1.35443699|0.806919396
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		scaleFactor = 1.19798172
+		height = 3.0227437
+		stagingEnabled = True
+		towerRot = 0,-0.707106829,0,-0.707106829
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ReleaseClamp
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = radialDecoupler_4293203752
+	partName = Part
+	persistentId = 3138533886
+	pos = -0.285413593,3.71235132,-1.93247294
+	attPos = 0,0,0
+	attPos0 = -2.98023863E-08,-0.00741434097,-0.335557729
+	rot = 1.89660838E-07,0.707106888,-1.89660838E-07,-0.707106888
+	attRot = 0,0,0,1
+	attRot0 = 1.8966081E-07,0.707106829,-1.8966081E-07,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 1
+	sidx = 3
+	sqor = 0
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4293210546,truss3x,0.00999999978|0|0,1|0|0,0.00999999978|0|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleAnchoredDecoupler
+		isEnabled = True
+		ejectionForcePercent = 100
+		isDecoupled = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			DecoupleAction
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussAdapter_4293969316
+	partName = Part
+	persistentId = 2702174583
+	pos = -0.285413563,0.718495369,-1.59691501
+	attPos = 0,0,0
+	attPos0 = 7.83796068E-08,-0.43833065,0
+	rot = -1.00000012,0,0,0
+	attRot = -0.99999994,0,0,0
+	attRot0 = -0.707106829,-6.3220277E-08,-0.707106829,6.3220277E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,structuralPanel2_4293907284_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
+	attN = top,Null_0_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = structuralPanel2_4293969076
+	partName = Part
+	persistentId = 743289730
+	pos = -2.28542542,1.15682602,-1.59691501
+	attPos = 3.55422316E-07,0.0123338699,0.00206291676
+	attPos0 = -1.17003829E-07,-0.0123338699,-2.0020628
+	rot = 5.9604659E-08,-1.00000012,8.94069885E-08,1.1920929E-07
+	attRot = 0,0,0,1
+	attRot0 = 4.21468478E-08,-0.707106888,4.21468656E-08,-0.707106769
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussAdapter_4293968560
+	link = trussAdapter_4292125954
+	srfN = srfAttach,structuralPanel2_4293907284,panel,-1|0|0,-1|0|0,-1|0|0
+	attN = top,trussAdapter_4292125954_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
+	attN = bottom,trussAdapter_4293968560_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussAdapter_4293968560
+	partName = Part
+	persistentId = 4119351934
+	pos = -2.2854259,0.718495369,-1.59691501
+	attPos = 0,0,0
+	attPos0 = 4.09881068E-07,-0.43833065,7.83797631E-08
+	rot = -1.00000012,-7.10542736E-15,4.23516474E-22,-7.10542736E-15
+	attRot = -0.99999994,0,0,0
+	attRot0 = -1.19209275E-07,8.94069814E-08,1,-5.96046377E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,structuralPanel2_4293969076_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
+	attN = top,Null_0_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussAdapter_4292125954
+	partName = Part
+	persistentId = 3175108031
+	pos = -2.2854259,1.59515667,-1.59691501
+	attPos = 0,0,0
+	attPos0 = 4.24584243E-07,0.43833065,-7.83794789E-08
+	rot = 0,0,0,1.00000012
+	attRot = 0,0,0,1
+	attRot0 = -5.96046519E-08,1,-8.94069743E-08,1.19209275E-07
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = trussPiece3x_4292124842
+	attN = bottom,structuralPanel2_4293969076_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
+	attN = top,trussPiece3x_4292124842_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussPiece3x_4292124842
+	partName = Part
+	persistentId = 2827072925
+	pos = -2.28542638,3.71976519,-1.59691501
+	attPos = 0,0,0
+	attPos0 = -4.76837386E-07,2.12460852,0
+	rot = 0,-1.00000012,0,0
+	attRot = 0,-0.99999994,0,0
+	attRot0 = 0,-1,-8.47032846E-22,-7.10542651E-15
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	link = launchClamp1_4292124714
+	attN = bottom,trussAdapter_4292125954_0|-1.47523797|0_0|-1|0_0|-1.47523797|0_0|-1|0
+	attN = top,Null_0_0|1.47523797|0_0|1|0_0|1.47523797|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = launchClamp1_4292124714
+	partName = Part
+	persistentId = 626196952
+	pos = -3.4170692,2.36259222,-1.59691477
+	attPos = 0,0,0
+	attPos0 = 1.13164222,-1.35717297,8.52651486E-14
+	rot = 0,0.707106888,0,0.707106888
+	attRot = 0,0,0,1
+	attRot0 = 0,0.707106829,0,-0.707106829
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 0
+	resPri = 0
+	dstg = 0
+	sidx = 4
+	sqor = 0
+	sepI = 0
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,trussPiece3x_4292124842,truss3x,0|1.35443699|0.806919396,0|0|-1,0|1.35443699|0.806919396
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		scaleFactor = 1.19798148
+		height = 3.02274323
+		stagingEnabled = True
+		towerRot = -5.98942731E-22,-0.707106829,-5.98942731E-22,0.707106829
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ReleaseClamp
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleGenerator
+		isEnabled = True
+		generatorIsActive = False
+		throttle = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ShutdownAction
+			{
+				actionGroup = None
+				active = False
+				wasActiveBeforePartWasAdjusted = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTestSubject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = trussAdapter_4293969594
+	partName = Part
+	persistentId = 2379573098
+	pos = -0.285413563,0.718495369,0.403084934
+	attPos = 0,0,0
+	attPos0 = 0,-0.43833065,0
+	rot = -1,0,0,0
+	attRot = -0.99999994,0,0,0
+	attRot0 = -1,0,0,0
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = -1
+	resPri = 0
+	dstg = 0
+	sidx = -1
+	sqor = -1
+	sepI = -1
+	attm = 0
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	attN = bottom,structuralPanel2_4293908490_0|-0.410830498|0_0|-1|0_0|-0.410830498|0_0|-1|0
+	attN = top,Null_0_0|0.64937079|0_0|1|0_0|0.64937079|0_0|1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+			wasActiveBeforePartWasAdjusted = False
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = KOSNameTag
+		isEnabled = True
+		nameTag = 
 		stagingEnabled = True
 		EVENTS
 		{
