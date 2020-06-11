@@ -1,8 +1,8 @@
 ship = Scout
-version = 1.8.1
+version = 1.9.1
 description = 
 type = SPH
-size = 3.88393593,2.63344955,4.14555359
+size = 3.88393688,2.63087845,4.14555359
 steamPublishedFileId = 0
 persistentId = 2254312404
 rot = 0,0,0,0
@@ -615,9 +615,9 @@ PART
 	link = ksp.r.largeBatteryPack_4294445920
 	link = ksp.r.largeBatteryPack_4294347204
 	link = ksp.r.largeBatteryPack_4294347174
-	link = kOSMachine1m_4294382810
+	link = kOSMachine1m_4294552518
 	srfN = srfAttach,structuralPanel2_4294507380,panel,-1|0|0,-1|0|0,-1|0|0
-	attN = top,kOSMachine1m_4294382810_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
+	attN = top,kOSMachine1m_4294552518_0|0.0274999999|0_0|1|0_0|0.0274999999|0_0|1|0
 	attN = bottom,Null_0_0|-0.0274999999|0_0|-1|0_0|-0.0274999999|0_0|-1|0
 	EVENTS
 	{
@@ -665,7 +665,7 @@ PART
 	part = roverWheel1_4294499232
 	partName = Part
 	persistentId = 337198010
-	pos = -1.39163017,4.61275434,-1.99154365
+	pos = -1.39163053,4.61275434,-1.99154365
 	attPos = 1.20937656E-07,-0.00966596603,-0.0124416351
 	attPos0 = 6.97971529E-08,-0.390334129,-1.38755822
 	rot = -8.94069885E-08,0,5.96046306E-08,1.00000012
@@ -908,7 +908,7 @@ PART
 	part = roverWheel1_4294499012
 	partName = Part
 	persistentId = 569886608
-	pos = 1.40837586,4.61275434,-1.99154365
+	pos = 1.40837622,4.61275434,-1.99154365
 	attPos = 1.20937671E-07,-0.00966596603,0.0124419928
 	attPos0 = -1.68621327E-07,-0.390334129,1.38755822
 	rot = 5.9604659E-08,1.00000012,-8.9407024E-08,-1.1920929E-07
@@ -1311,7 +1311,7 @@ PART
 	part = ksp.r.largeBatteryPack_4294445950
 	partName = Part
 	persistentId = 1196774166
-	pos = -0.578707814,5.02942276,-1.65259326
+	pos = -0.578708053,5.02942276,-1.65259326
 	attPos = 0,0,0
 	attPos0 = -0.338950098,0.0166682582,-0.587078691
 	rot = -1.80781967E-09,0.707106709,-0.707107008,1.49011612E-07
@@ -1391,7 +1391,7 @@ PART
 	part = ksp.r.largeBatteryPack_4294445920
 	partName = Part
 	persistentId = 975893663
-	pos = 0.595452309,5.02942276,-1.65259326
+	pos = 0.595452428,5.02942276,-1.65259326
 	attPos = 0,0,0
 	attPos0 = -0.338950217,0.0166682582,0.587078571
 	rot = 1.80779836E-09,-0.707106709,0.707107008,2.68220901E-07
@@ -2732,7 +2732,7 @@ PART
 	part = ksp.r.largeBatteryPack_4294347204
 	partName = Part
 	persistentId = 23732753
-	pos = -0.640240192,5.02942228,-2.64015484
+	pos = -0.640240431,5.02942228,-2.64015484
 	attPos = 0,0,0
 	attPos0 = 0.64861089,0.0166679583,-0.648611188
 	rot = -1.80781967E-09,0.707106709,-0.707107008,1.49011612E-07
@@ -2812,7 +2812,7 @@ PART
 	part = ksp.r.largeBatteryPack_4294347174
 	partName = Part
 	persistentId = 3582541999
-	pos = 0.656984806,5.02942228,-2.64015484
+	pos = 0.656984925,5.02942228,-2.64015484
 	attPos = 0,0,0
 	attPos0 = 0.648610771,0.0166679583,0.648611248
 	rot = 1.80779836E-09,-0.707106709,0.707107008,2.68220901E-07
@@ -2889,9 +2889,9 @@ PART
 }
 PART
 {
-	part = kOSMachine1m_4294382810
+	part = kOSMachine1m_4294552518
 	partName = Part
-	persistentId = 1131386416
+	persistentId = 81609606
 	pos = 0.00837263465,5.21325445,-1.99154365
 	attPos = 0,0,0
 	attPos0 = -3.58521888E-08,0.200500011,0
@@ -2910,8 +2910,8 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 732
-	modMass = 0.000146487
+	modCost = 1465
+	modMass = 0.000292974
 	modSize = 0,0,0
 	link = KR-2042_4294460586
 	attN = bottom,structuralPanel2_4294502384_0|-0.172999993|0_0|-1|0_0|-0.172999993|0_0|-1|0
@@ -2945,10 +2945,10 @@ PART
 		name = kOSProcessor
 		isEnabled = True
 		bootFile = /boot/boot.ks
-		diskSpace = 40000
-		baseDiskSpace = 10000
+		diskSpace = 80000
+		baseDiskSpace = 20000
 		baseModuleMass = 0
-		additionalCost = 732
+		additionalCost = 1465
 		MaxPartId = 100
 		RequiredPower = 0.400000006
 		stagingEnabled = True
@@ -3016,9 +3016,9 @@ PART
 	part = KR-2042_4294460586
 	partName = Part
 	persistentId = 3859433732
-	pos = 0.00837263465,5.33524036,-1.99154365
-	attPos = -1.77635726E-15,-0.048014164,5.32907221E-15
-	attPos0 = 3.55271453E-15,0.170000076,-1.42108581E-14
+	pos = 0.00837263465,5.33266926,-1.99154365
+	attPos = -1.77635642E-15,-0.0505852699,5.32906882E-15
+	attPos0 = 3.55271283E-15,0.170000076,-1.42108513E-14
 	rot = 1.00000012,0,0,0
 	attRot = 0.707106709,0,0,0.707106709
 	attRot0 = 1,0,0,0
@@ -3039,7 +3039,7 @@ PART
 	modSize = 0,0,0
 	link = longAntenna_4294441724
 	attN = bottom,longAntenna_4294441724_0|-0.0810000002|0_0|-1|0_0|-0.0810000002|0_0|-1|0
-	attN = top,kOSMachine1m_4294382810_0|-0.00300000003|0_0|1|0_0|-0.00300000003|0_0|1|0
+	attN = top,kOSMachine1m_4294552518_0|-0.00300000003|0_0|1|0_0|-0.00300000003|0_0|1|0
 	EVENTS
 	{
 	}
@@ -3228,7 +3228,7 @@ PART
 	part = longAntenna_4294441724
 	partName = Part
 	persistentId = 3130193352
-	pos = 0.00837263465,5.41624022,-1.99154365
+	pos = 0.00837263465,5.41366911,-1.99154365
 	attPos = 0,0,0
 	attPos0 = 3.55271304E-15,-0.0809998512,0
 	rot = 0,0,0,1.00000012
