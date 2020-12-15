@@ -1,8 +1,8 @@
 ship = Sabre
-version = 1.9.1
+version = 1.10.1
 description = 
 type = SPH
-size = 9.1448307,3.8200531,8.76055908
+size = 9.14483261,3.82005882,8.76057053
 steamPublishedFileId = 0
 persistentId = 1497622685
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = RetroMk1inline_4294568138
 	partName = Part
-	persistentId = 2850451736
+	persistentId = 3071704589
 	pos = 0,5,0
 	attPos = 0,0,0
 	attPos0 = 0,5,0
@@ -151,6 +151,7 @@ PART
 		name = FlagDecal
 		isEnabled = True
 		flagDisplayed = True
+		isMirrored = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -219,8 +220,8 @@ PART
 {
 	part = ServiceBay.125.v2_4294552476
 	partName = Part
-	persistentId = 2192035282
-	pos = 0,5,-1.23751247
+	persistentId = 1369624627
+	pos = 0,5,-1.23751462
 	attPos = 0,0,0
 	attPos0 = 0,-1.23750019,1.1920929E-07
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -361,8 +362,8 @@ PART
 {
 	part = airplaneTailB_4294560200
 	partName = Part
-	persistentId = 2577465636
-	pos = -1.69406589E-21,5,-1.53752625
+	persistentId = 445577756
+	pos = -1.69406589E-21,5,-1.53753054
 	attPos = 0,0,0
 	attPos0 = -1.19208941E-07,-0.300000489,-1.42108064E-14
 	rot = 0.707106888,0,0,0.707106888
@@ -449,8 +450,8 @@ PART
 {
 	part = R8winglet_4294556764
 	partName = Part
-	persistentId = 2840529070
-	pos = -0.70962733,5.40213823,-5.33754921
+	persistentId = 2302219370
+	pos = -0.709629476,5.40214252,-5.33755589
 	attPos = 0.301016331,-2.74664259,-0.399999082
 	attPos0 = -1.0106287,-1.05335665,2.38418266E-07
 	rot = 0.709644496,-0.0488745347,0.0494688079,0.701120079
@@ -532,6 +533,61 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+			PitchActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			PitchInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitch
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYaw
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRoll
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DeactivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		AXISGROUPS
 		{
@@ -581,8 +637,8 @@ PART
 {
 	part = R8winglet_4294556576
 	partName = Part
-	persistentId = 1865169326
-	pos = 0.709627688,5.40213871,-5.33755112
+	persistentId = 1000555549
+	pos = 0.709629834,5.402143,-5.33755779
 	attPos = -0.301016331,-2.74664545,-0.399999082
 	attPos0 = 1.0106287,-1.05335665,2.38418266E-07
 	rot = 0.0494687073,0.7011199,0.709644675,-0.0488746054
@@ -664,6 +720,61 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+			PitchActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			PitchInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitch
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYaw
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRoll
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DeactivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		AXISGROUPS
 		{
@@ -705,8 +816,8 @@ PART
 {
 	part = R8winglet_4294555058
 	partName = Part
-	persistentId = 60103866
-	pos = 2.38418693E-07,6.16027355,-5.54063082
+	persistentId = 2388195783
+	pos = 2.38418693E-07,6.16028023,-5.54063702
 	attPos = 0,0,0
 	attPos0 = 2.79693211E-07,-4.00306845,-1.16022933
 	rot = -0.499999762,0.500000417,0.49999994,-0.500000238
@@ -764,8 +875,8 @@ PART
 		deploy = False
 		deployInvert = False
 		partDeployInvert = False
-		deployAngle = 15
-		authorityLimiter = 100
+		deployAngle = 4.5
+		authorityLimiter = 34.5
 		stagingEnabled = True
 		EVENTS
 		{
@@ -783,6 +894,61 @@ PART
 				wasActiveBeforePartWasAdjusted = False
 			}
 			ActionRetract
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			PitchActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			PitchInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitch
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYaw
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRoll
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DeactivateAllControls
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -836,8 +1002,8 @@ PART
 {
 	part = SmallGearBay_4294540550
 	partName = Part
-	persistentId = 1602273161
-	pos = 0,4.33169031,1.00001264
+	persistentId = 1602984562
+	pos = 0,4.33169031,1.00001478
 	attPos = 0,0.632572055,0.0514277816
 	attPos0 = 0,0.367428422,0.616881847
 	rot = -2.08616257E-07,1.94289029E-16,-4.82090923E-10,1.00000012
@@ -1190,8 +1356,8 @@ PART
 {
 	part = sweptWing_4294557560
 	partName = Part
-	persistentId = 2408605487
-	pos = -0.546544254,4.80000019,-0.400004655
+	persistentId = 2046969533
+	pos = -0.546544254,4.80000019,-0.400005728
 	attPos = 0.064216435,-0.0878663957,0.199999869
 	attPos0 = -0.610760689,-0.312133878,2.98023224E-08
 	rot = -8.3594017E-08,-0.718562841,-0.695462108,4.3518142E-08
@@ -1278,8 +1444,8 @@ PART
 {
 	part = smallHardpoint_4294549294
 	partName = Part
-	persistentId = 2879047317
-	pos = -1.52444649,4.78723669,-0.790542364
+	persistentId = 2372328084
+	pos = -1.52444649,4.78723669,-0.79054451
 	attPos = 0,0,0
 	attPos0 = 0.97789216,-0.390740514,-4.7897597E-08
 	rot = -0.511827111,-0.52748996,-0.47090736,-0.487887263
@@ -1416,8 +1582,8 @@ PART
 {
 	part = miniFuselage_4294547970
 	partName = Part
-	persistentId = 3203110311
-	pos = -1.52444744,4.20713043,-0.171251655
+	persistentId = 1913737799
+	pos = -1.52444792,4.20712614,-0.171251237
 	attPos = 0.0255089402,0.303768933,-0.0482801795
 	attPos0 = -0.625509739,0.294285297,-2.98023224E-07
 	rot = -0.51182723,-0.527490079,-0.470907271,-0.487887144
@@ -1500,8 +1666,8 @@ PART
 {
 	part = miniJetEngine_4294547064
 	partName = Part
-	persistentId = 742897441
-	pos = -1.56216574,4.19186783,-0.638239861
+	persistentId = 1899018349
+	pos = -1.56216574,4.19186354,-0.638241053
 	attPos = 0,0,0
 	attPos0 = -2.22469765E-07,-0.46875006,-3.71364877E-08
 	rot = -0.694898367,-0.0280037578,0.0289339814,-0.717979908
@@ -1674,8 +1840,8 @@ PART
 {
 	part = miniIntake_4294544954
 	partName = Part
-	persistentId = 2306843249
-	pos = -1.48672843,4.22239113,0.295731813
+	persistentId = 3223374171
+	pos = -1.48672879,4.22238684,0.29573217
 	attPos = 0,0,0
 	attPos0 = -1.94762933E-07,0.46875,-8.20727664E-08
 	rot = -0.694898367,-0.0280037578,0.0289339814,-0.717979908
@@ -1775,8 +1941,8 @@ PART
 {
 	part = smallHardpoint_4294536862
 	partName = Part
-	persistentId = 1641015539
-	pos = -3.16132188,4.75017834,-1.92445862
+	persistentId = 2131700560
+	pos = -3.16132402,4.75017834,-1.92446506
 	attPos = 0,0,0
 	attPos0 = 2.61474729,-1.52523804,-1.11758638E-07
 	rot = 0.491408944,0.507755041,0.492122889,0.508445978
@@ -1913,8 +2079,8 @@ PART
 {
 	part = SmallGearBay_4294535752
 	partName = Part
-	persistentId = 3751537601
-	pos = -3.16132474,4.35437775,-1.52028155
+	persistentId = 2363188653
+	pos = -3.16132689,4.35437632,-1.52028739
 	attPos = -0.0946336687,0.0888625085,0.000547855685
 	attPos0 = -0.314144135,0.302160591,-1.13248734E-06
 	rot = -0.0163346529,-0.00070299732,1.2017932E-05,0.999866486
@@ -2268,8 +2434,8 @@ PART
 {
 	part = sweptWing_4294529030
 	partName = Part
-	persistentId = 4197241840
-	pos = 0.546544254,4.80000019,-0.400004834
+	persistentId = 2577152453
+	pos = 0.546544254,4.80000019,-0.400005907
 	attPos = -0.064216435,-0.0878665149,0.199999869
 	attPos0 = 0.610760689,-0.312133938,2.98023224E-08
 	rot = -0.695462286,1.2108714E-08,-1.13993622E-07,-0.718562663
@@ -2356,8 +2522,8 @@ PART
 {
 	part = smallHardpoint_4294528984
 	partName = Part
-	persistentId = 4034649613
-	pos = 1.52444649,4.78723669,-0.790542722
+	persistentId = 3539286433
+	pos = 1.52444649,4.78723669,-0.790544868
 	attPos = 0,0,0
 	attPos0 = 0.97789216,-0.390740514,-4.7897597E-08
 	rot = -0.47090748,-0.487887323,-0.511827052,-0.527489781
@@ -2494,8 +2660,8 @@ PART
 {
 	part = miniFuselage_4294528918
 	partName = Part
-	persistentId = 3585649530
-	pos = 1.52444649,4.20712996,-0.171250403
+	persistentId = 996893295
+	pos = 1.52444649,4.20712566,-0.171250463
 	attPos = 0.0255089402,0.303768933,-0.0482801795
 	attPos0 = -0.625509739,0.294285297,-2.98023224E-07
 	rot = -0.47090745,-0.487887114,-0.51182723,-0.527489841
@@ -2578,8 +2744,8 @@ PART
 {
 	part = miniJetEngine_4294528872
 	partName = Part
-	persistentId = 2421904368
-	pos = 1.56216574,4.19186783,-0.638240099
+	persistentId = 333743990
+	pos = 1.56216574,4.19186354,-0.638241172
 	attPos = 0,0,0
 	attPos0 = -2.22469765E-07,-0.46875006,-3.71364877E-08
 	rot = 0.694898546,-0.0280037522,0.0289340243,0.717979848
@@ -2752,8 +2918,8 @@ PART
 {
 	part = miniIntake_4294528804
 	partName = Part
-	persistentId = 2060808678
-	pos = 1.486727,4.22239113,0.295731395
+	persistentId = 750279450
+	pos = 1.486727,4.22238684,0.295731515
 	attPos = 0,0,0
 	attPos0 = -1.94762933E-07,0.46875,-8.20727664E-08
 	rot = 0.694898546,-0.0280037522,0.0289340243,0.717979848
@@ -2853,8 +3019,8 @@ PART
 {
 	part = smallHardpoint_4294528752
 	partName = Part
-	persistentId = 3368128003
-	pos = 3.16131353,4.75017834,-1.92445946
+	persistentId = 3821240604
+	pos = 3.16131353,4.75017834,-1.92446589
 	attPos = 0,0,0
 	attPos0 = 2.61474729,-1.52523804,-1.11758638E-07
 	rot = 0.492122859,0.508446038,0.491409123,0.507754922
@@ -2991,8 +3157,8 @@ PART
 {
 	part = SmallGearBay_4294528692
 	partName = Part
-	persistentId = 3029205381
-	pos = 3.16131639,4.35437441,-1.52028215
+	persistentId = 2145421573
+	pos = 3.16131639,4.35437202,-1.52028728
 	attPos = -0.0946336687,0.0888625085,0.000547855685
 	attPos0 = -0.314144135,0.302160591,-1.13248734E-06
 	rot = -0.0163345933,0.000702948077,-1.20938639E-05,0.999866426
@@ -3334,8 +3500,8 @@ PART
 {
 	part = elevon5_4294523048
 	partName = Part
-	persistentId = 2018178177
-	pos = -3.49415946,4.7232914,-2.4936142
+	persistentId = 2431479623
+	pos = -3.49416161,4.7232914,-2.49361849
 	attPos = 0.130964279,-0.0659656525,-0.00828064326
 	attPos0 = 2.81664133,-2.02902007,-1.67637751E-07
 	rot = -0.174771205,0.68571347,0.688962281,0.156790212
@@ -3417,6 +3583,61 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+			PitchActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			PitchInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitch
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYaw
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRoll
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DeactivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		AXISGROUPS
 		{
@@ -3458,8 +3679,8 @@ PART
 {
 	part = elevon5_4294522334
 	partName = Part
-	persistentId = 4182813965
-	pos = 3.49415112,4.7232914,-2.49361396
+	persistentId = 2277168064
+	pos = 3.49415112,4.7232914,-2.49361825
 	attPos = 0.130963087,-0.0659644604,0.00828104746
 	attPos0 = 2.81664324,-2.02902079,8.97793598E-07
 	rot = -0.688962281,-0.156790137,0.17477119,-0.685713589
@@ -3541,6 +3762,61 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+			PitchActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			PitchInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitch
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYaw
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRoll
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DeactivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		AXISGROUPS
 		{
@@ -3582,8 +3858,8 @@ PART
 {
 	part = elevon5_4294521762
 	partName = Part
-	persistentId = 4246832179
-	pos = -1.67838454,4.76329899,-1.56388521
+	persistentId = 3331129991
+	pos = -1.67838454,4.76329899,-1.5638907
 	attPos = 0.0675059557,-0.0325137377,0.00133591285
 	attPos0 = 1.0643338,-1.13192809,-1.24796998E-07
 	rot = -0.171436369,0.684946775,0.689799905,0.160105407
@@ -3665,6 +3941,61 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+			PitchActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			PitchInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitch
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYaw
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRoll
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DeactivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		AXISGROUPS
 		{
@@ -3706,8 +4037,8 @@ PART
 {
 	part = elevon5_4294521722
 	partName = Part
-	persistentId = 313370504
-	pos = 1.67838454,4.76329899,-1.56388509
+	persistentId = 108806973
+	pos = 1.67838454,4.76329899,-1.56389046
 	attPos = 0.0675053596,-0.032512784,-0.00133568409
 	attPos0 = 1.06433463,-1.13192856,4.8801229E-07
 	rot = -0.689799786,-0.160105482,0.171436414,-0.684947014
@@ -3789,6 +4120,61 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+			PitchActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			PitchInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			TogglePitch
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			YawInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleYaw
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollActive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			RollInactive
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleRoll
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ActivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			DeactivateAllControls
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		AXISGROUPS
 		{
@@ -3830,8 +4216,8 @@ PART
 {
 	part = SurfAntenna_4294338266
 	partName = Part
-	persistentId = 1877341499
-	pos = -0.437976211,5.43796825,-2.6635468
+	persistentId = 1936051006
+	pos = -0.437978357,5.43796825,-2.66355109
 	attPos = 0,0,0
 	attPos0 = -0.43796742,-1.12602007,-0.437967598
 	rot = -0.24402158,0.663666964,-0.296734154,-0.641832411
@@ -3920,8 +4306,8 @@ PART
 {
 	part = SurfAntenna_4294338156
 	partName = Part
-	persistentId = 3262835466
-	pos = 0.437976241,5.43796825,-2.66354704
+	persistentId = 3130048593
+	pos = 0.437978387,5.43796825,-2.66355133
 	attPos = 0,0,0
 	attPos0 = 0.43796742,-1.12602031,-0.437967598
 	rot = 0.244021595,0.663666904,-0.296734095,0.641832411
@@ -4010,8 +4396,8 @@ PART
 {
 	part = kOSMachine1m_4294352542
 	partName = Part
-	persistentId = 2827461982
-	pos = 0,5,-1.16051269
+	persistentId = 1709989903
+	pos = 0,5,-1.16051483
 	attPos = 0,0,0
 	attPos0 = 0,0.0769997761,0
 	rot = -0.707106888,0,0,-0.707106888
@@ -4134,8 +4520,8 @@ PART
 {
 	part = batteryBankMini_4293480558
 	partName = Part
-	persistentId = 1681833040
-	pos = 0,5,-1.43351305
+	persistentId = 1960426726
+	pos = 0,5,-1.43351519
 	attPos = 0,0,0
 	attPos0 = 0,-0.27300024,0
 	rot = 0.707106888,0,0,0.707106888
@@ -4214,8 +4600,8 @@ PART
 {
 	part = ServiceBay.125.v2_4294531688
 	partName = Part
-	persistentId = 3548054863
-	pos = 0,5,1.23750079
+	persistentId = 1829930404
+	pos = 0,5,1.23750293
 	attPos = 0,0,0
 	attPos0 = 0,1.23750019,-1.1920929E-07
 	rot = -0.707106829,0,0,0.707106829
@@ -4359,8 +4745,8 @@ PART
 {
 	part = sensorBarometer_4294215816
 	partName = Part
-	persistentId = 2415050705
-	pos = -0.24613528,5.24613476,1.51607919
+	persistentId = 3947285561
+	pos = -0.24613528,5.24613476,1.51608348
 	attPos = 0,0,0
 	attPos0 = -0.246134609,-0.278576016,0.246134713
 	rot = 0,0,0,1.00000012
@@ -4476,8 +4862,8 @@ PART
 {
 	part = sensorThermometer_4294215308
 	partName = Part
-	persistentId = 556666817
-	pos = 0.221604511,5.22160387,1.51607919
+	persistentId = 3452363335
+	pos = 0.221604511,5.22160387,1.51608348
 	attPos = 0,0,0
 	attPos0 = 0.221603885,-0.278576016,0.221603841
 	rot = 0,0,0,1.00000012
@@ -4593,8 +4979,8 @@ PART
 {
 	part = sensorAccelerometer_4294215978
 	partName = Part
-	persistentId = 2429543802
-	pos = 0,5.42723656,1.51607907
+	persistentId = 1345969045
+	pos = 0,5.42723656,1.51608336
 	attPos = 0,0,0
 	attPos0 = 0,-0.278576493,0.427235067
 	rot = 0,0,1.00000012,0
@@ -4710,8 +5096,8 @@ PART
 {
 	part = kOSMachine1m_4294489874
 	partName = Part
-	persistentId = 1054389439
-	pos = 0,5,1.16050076
+	persistentId = 4087795840
+	pos = 0,5,1.16050291
 	attPos = 0,0,0
 	attPos0 = 0,0.0769999549,0
 	rot = 0.707106829,0,0,0.707106829
@@ -4834,8 +5220,8 @@ PART
 {
 	part = KR-2042_4293663106
 	partName = Part
-	persistentId = 4237214751
-	pos = 0,5,1.27828002
+	persistentId = 2820878046
+	pos = 0,5,1.27828217
 	attPos = 0,-0.0522215664,0
 	attPos0 = 0,0.170000508,0
 	rot = 0.707106829,0,0,-0.707106829
@@ -4942,7 +5328,7 @@ PART
 		{
 			ToggleLightAction
 			{
-				actionGroup = Light
+				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
 			LightOnAction
@@ -5045,8 +5431,8 @@ PART
 {
 	part = noseCone_4294541884
 	partName = Part
-	persistentId = 2042998573
-	pos = 0,5,1.53750265
+	persistentId = 2858015516
+	pos = 0,5,1.53750932
 	attPos = 0,0,0
 	attPos0 = 0,-0.300000519,1.19209183E-07
 	rot = 0.707106829,0,0,0.707106829
