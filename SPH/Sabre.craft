@@ -1,8 +1,8 @@
 ship = Sabre
-version = 1.11.0
+version = 1.11.2
 description = 
 type = SPH
-size = 9.14483643,3.82006836,8.7605896
+size = 9.14483643,3.82007027,8.76059151
 steamPublishedFileId = 0
 persistentId = 1497622685
 rot = 0,0,0,0
@@ -221,7 +221,7 @@ PART
 	part = ServiceBay.125.v2_4294552476
 	partName = Part
 	persistentId = 2425590983
-	pos = 0,5,-1.23751771
+	pos = 0,5,-1.23751795
 	attPos = 0,0,0
 	attPos0 = 0,-1.23750019,1.1920929E-07
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -348,6 +348,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -381,7 +382,7 @@ PART
 	part = airplaneTailB_4294560200
 	partName = Part
 	persistentId = 3359075257
-	pos = -1.69406589E-21,5,-1.53753674
+	pos = -1.69406589E-21,5,-1.53753722
 	attPos = 0,0,0
 	attPos0 = -1.19208941E-07,-0.300000489,-1.42108064E-14
 	rot = 0.707106888,0,0,0.707106888
@@ -470,7 +471,7 @@ PART
 	part = R8winglet_4294556764
 	partName = Part
 	persistentId = 3266127178
-	pos = -0.709632576,5.40214872,-5.33756447
+	pos = -0.709632814,5.4021492,-5.33756542
 	attPos = 0.301016331,-2.74664259,-0.399999082
 	attPos0 = -1.0106287,-1.05335665,2.38418266E-07
 	rot = 0.709644496,-0.0488745347,0.0494688079,0.701120079
@@ -643,6 +644,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -676,7 +678,7 @@ PART
 	part = R8winglet_4294556576
 	partName = Part
 	persistentId = 2140612172
-	pos = 0.709632933,5.4021492,-5.33756638
+	pos = 0.709633172,5.40214968,-5.33756733
 	attPos = -0.301016331,-2.74664545,-0.399999082
 	attPos0 = 1.0106287,-1.05335665,2.38418266E-07
 	rot = 0.0494687073,0.7011199,0.709644675,-0.0488746054
@@ -841,6 +843,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -874,7 +877,7 @@ PART
 	part = R8winglet_4294555058
 	partName = Part
 	persistentId = 353897691
-	pos = 2.38418693E-07,6.16028976,-5.5406456
+	pos = 2.38418693E-07,6.16029024,-5.54064655
 	attPos = 0,0,0
 	attPos0 = 2.79693211E-07,-4.00306845,-1.16022933
 	rot = -0.499999762,0.500000417,0.49999994,-0.500000238
@@ -1046,6 +1049,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1079,7 +1083,7 @@ PART
 	part = SmallGearBay_4294540550
 	partName = Part
 	persistentId = 138008031
-	pos = 0,4.33169031,1.00001788
+	pos = 0,4.33169031,1.00001812
 	attPos = 0,0.632572055,0.0514277816
 	attPos0 = 0,0.367428422,0.616881847
 	rot = -2.08616257E-07,1.94289029E-16,-4.82090923E-10,1.00000012
@@ -1460,6 +1464,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1493,7 +1498,7 @@ PART
 	part = sweptWing_4294557560
 	partName = Part
 	persistentId = 825938092
-	pos = -0.546544254,4.80000019,-0.400007278
+	pos = -0.546544254,4.80000019,-0.400007397
 	attPos = 0.064216435,-0.0878663957,0.199999869
 	attPos0 = -0.610760689,-0.312133878,2.98023224E-08
 	rot = -8.3594017E-08,-0.718562841,-0.695462108,4.3518142E-08
@@ -1581,7 +1586,7 @@ PART
 	part = smallHardpoint_4294549294
 	partName = Part
 	persistentId = 378259560
-	pos = -1.52444649,4.78723669,-0.790547609
+	pos = -1.52444649,4.78723669,-0.790547848
 	attPos = 0,0,0
 	attPos0 = 0.97789216,-0.390740514,-4.7897597E-08
 	rot = -0.511827111,-0.52748996,-0.47090736,-0.487887263
@@ -1703,6 +1708,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1736,7 +1742,7 @@ PART
 	part = miniFuselage_4294547970
 	partName = Part
 	persistentId = 1765108400
-	pos = -1.52444816,4.20711994,-0.17125088
+	pos = -1.52444816,4.20711946,-0.17125082
 	attPos = 0.0255089402,0.303768933,-0.0482801795
 	attPos0 = -0.625509739,0.294285297,-2.98023224E-07
 	rot = -0.51182723,-0.527490079,-0.470907271,-0.487887144
@@ -1793,6 +1799,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1837,7 +1844,7 @@ PART
 	part = miniJetEngine_4294547064
 	partName = Part
 	persistentId = 286000912
-	pos = -1.56216574,4.19185734,-0.638242364
+	pos = -1.56216574,4.19185686,-0.638242364
 	attPos = 0,0,0
 	attPos0 = -2.22469765E-07,-0.46875006,-3.71364877E-08
 	rot = -0.694898367,-0.0280037578,0.0289339814,-0.717979908
@@ -1997,6 +2004,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2030,7 +2038,7 @@ PART
 	part = miniIntake_4294544954
 	partName = Part
 	persistentId = 2798928152
-	pos = -1.48672962,4.22238064,0.295733362
+	pos = -1.48672962,4.22238016,0.295733362
 	attPos = 0,0,0
 	attPos0 = -1.94762933E-07,0.46875,-8.20727664E-08
 	rot = -0.694898367,-0.0280037578,0.0289339814,-0.717979908
@@ -2104,6 +2112,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2148,7 +2157,7 @@ PART
 	part = smallHardpoint_4294536862
 	partName = Part
 	persistentId = 3182407235
-	pos = -3.16132712,4.75017834,-1.92447436
+	pos = -3.16132736,4.75017834,-1.92447507
 	attPos = 0,0,0
 	attPos0 = 2.61474729,-1.52523804,-1.11758638E-07
 	rot = 0.491408944,0.507755041,0.492122889,0.508445978
@@ -2270,6 +2279,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2303,7 +2313,7 @@ PART
 	part = SmallGearBay_4294535752
 	partName = Part
 	persistentId = 479015916
-	pos = -3.16132998,4.35437298,-1.52029467
+	pos = -3.16133022,4.35437298,-1.5202955
 	attPos = -0.0946336687,0.0888625085,0.000547855685
 	attPos0 = -0.314144135,0.302160591,-1.13248734E-06
 	rot = -0.0163346529,-0.00070299732,1.2017932E-05,0.999866486
@@ -2686,6 +2696,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2719,7 +2730,7 @@ PART
 	part = sweptWing_4294529030
 	partName = Part
 	persistentId = 2878163412
-	pos = 0.546544254,4.80000019,-0.400007457
+	pos = 0.546544254,4.80000019,-0.400007576
 	attPos = -0.064216435,-0.0878665149,0.199999869
 	attPos0 = 0.610760689,-0.312133938,2.98023224E-08
 	rot = -0.695462286,1.2108714E-08,-1.13993622E-07,-0.718562663
@@ -2807,7 +2818,7 @@ PART
 	part = smallHardpoint_4294528984
 	partName = Part
 	persistentId = 3444316926
-	pos = 1.52444649,4.78723669,-0.790547967
+	pos = 1.52444649,4.78723669,-0.790548205
 	attPos = 0,0,0
 	attPos0 = 0.97789216,-0.390740514,-4.7897597E-08
 	rot = -0.47090748,-0.487887323,-0.511827052,-0.527489781
@@ -2929,6 +2940,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -2962,7 +2974,7 @@ PART
 	part = miniFuselage_4294528918
 	partName = Part
 	persistentId = 208693344
-	pos = 1.52444649,4.20711946,-0.171250224
+	pos = 1.52444649,4.20711899,-0.171250224
 	attPos = 0.0255089402,0.303768933,-0.0482801795
 	attPos0 = -0.625509739,0.294285297,-2.98023224E-07
 	rot = -0.47090745,-0.487887114,-0.51182723,-0.527489841
@@ -3019,6 +3031,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3063,7 +3076,7 @@ PART
 	part = miniJetEngine_4294528872
 	partName = Part
 	persistentId = 204436763
-	pos = 1.56216574,4.19185734,-0.638242722
+	pos = 1.56216574,4.19185686,-0.638242841
 	attPos = 0,0,0
 	attPos0 = -2.22469765E-07,-0.46875006,-3.71364877E-08
 	rot = 0.694898546,-0.0280037522,0.0289340243,0.717979848
@@ -3223,6 +3236,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3256,7 +3270,7 @@ PART
 	part = miniIntake_4294528804
 	partName = Part
 	persistentId = 918433941
-	pos = 1.486727,4.22238064,0.295732766
+	pos = 1.486727,4.22238016,0.295732886
 	attPos = 0,0,0
 	attPos0 = -1.94762933E-07,0.46875,-8.20727664E-08
 	rot = 0.694898546,-0.0280037522,0.0289340243,0.717979848
@@ -3330,6 +3344,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3374,7 +3389,7 @@ PART
 	part = smallHardpoint_4294528752
 	partName = Part
 	persistentId = 3882482998
-	pos = 3.16131353,4.75017834,-1.92447519
+	pos = 3.16131353,4.75017834,-1.92447591
 	attPos = 0,0,0
 	attPos0 = 2.61474729,-1.52523804,-1.11758638E-07
 	rot = 0.492122859,0.508446038,0.491409123,0.507754922
@@ -3496,6 +3511,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3529,7 +3545,7 @@ PART
 	part = SmallGearBay_4294528692
 	partName = Part
 	persistentId = 858501931
-	pos = 3.16131639,4.35436916,-1.52029479
+	pos = 3.16131639,4.35436869,-1.52029538
 	attPos = -0.0946336687,0.0888625085,0.000547855685
 	attPos0 = -0.314144135,0.302160591,-1.13248734E-06
 	rot = -0.0163345933,0.000702948077,-1.20938639E-05,0.999866426
@@ -3900,6 +3916,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -3933,7 +3950,7 @@ PART
 	part = elevon5_4294523048
 	partName = Part
 	persistentId = 3140402108
-	pos = -3.49416471,4.7232914,-2.49362469
+	pos = -3.49416494,4.7232914,-2.49362516
 	attPos = 0.130964279,-0.0659656525,-0.00828064326
 	attPos0 = 2.81664133,-2.02902007,-1.67637751E-07
 	rot = -0.174771205,0.68571347,0.688962281,0.156790212
@@ -4098,6 +4115,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4131,7 +4149,7 @@ PART
 	part = elevon5_4294522334
 	partName = Part
 	persistentId = 1646363837
-	pos = 3.49415112,4.7232914,-2.49362445
+	pos = 3.49415112,4.7232914,-2.49362493
 	attPos = 0.130963087,-0.0659644604,0.00828104746
 	attPos0 = 2.81664324,-2.02902079,8.97793598E-07
 	rot = -0.688962281,-0.156790137,0.17477119,-0.685713589
@@ -4296,6 +4314,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4329,7 +4348,7 @@ PART
 	part = elevon5_4294521762
 	partName = Part
 	persistentId = 621391049
-	pos = -1.67838454,4.76329899,-1.56389785
+	pos = -1.67838454,4.76329899,-1.56389832
 	attPos = 0.0675059557,-0.0325137377,0.00133591285
 	attPos0 = 1.0643338,-1.13192809,-1.24796998E-07
 	rot = -0.171436369,0.684946775,0.689799905,0.160105407
@@ -4494,6 +4513,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4527,7 +4547,7 @@ PART
 	part = elevon5_4294521722
 	partName = Part
 	persistentId = 2064111665
-	pos = 1.67838454,4.76329899,-1.56389809
+	pos = 1.67838454,4.76329899,-1.56389856
 	attPos = 0.0675053596,-0.032512784,-0.00133568409
 	attPos0 = 1.06433463,-1.13192856,4.8801229E-07
 	rot = -0.689799786,-0.160105482,0.171436414,-0.684947014
@@ -4692,6 +4712,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4725,7 +4746,7 @@ PART
 	part = SurfAntenna_4294338266
 	partName = Part
 	persistentId = 3370909805
-	pos = -0.437981457,5.43796825,-2.66355729
+	pos = -0.437981695,5.43796825,-2.66355777
 	attPos = 0,0,0
 	attPos0 = -0.43796742,-1.12602007,-0.437967598
 	rot = -0.24402158,0.663666964,-0.296734154,-0.641832411
@@ -4799,6 +4820,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4832,7 +4854,7 @@ PART
 	part = SurfAntenna_4294338156
 	partName = Part
 	persistentId = 266924806
-	pos = 0.437981486,5.43796825,-2.66355753
+	pos = 0.437981725,5.43796825,-2.66355801
 	attPos = 0,0,0
 	attPos0 = 0.43796742,-1.12602031,-0.437967598
 	rot = 0.244021595,0.663666904,-0.296734095,0.641832411
@@ -4906,6 +4928,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4939,7 +4962,7 @@ PART
 	part = kOSMachine1m_4294352542
 	partName = Part
 	persistentId = 1816286882
-	pos = 0,5,-1.16051793
+	pos = 0,5,-1.16051817
 	attPos = 0,0,0
 	attPos0 = 0,0.0769997761,0
 	rot = -0.707106888,0,0,-0.707106888
@@ -5025,6 +5048,21 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+			StartSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			StopSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -5063,7 +5101,7 @@ PART
 	part = batteryBankMini_4293480558
 	partName = Part
 	persistentId = 613014995
-	pos = 0,5,-1.43351829
+	pos = 0,5,-1.43351853
 	attPos = 0,0,0
 	attPos0 = 0,-0.27300024,0
 	rot = 0.707106888,0,0,0.707106888
@@ -5116,6 +5154,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5160,7 +5199,7 @@ PART
 	part = ServiceBay.125.v2_4294531688
 	partName = Part
 	persistentId = 2593400048
-	pos = 0,5,1.23750603
+	pos = 0,5,1.23750627
 	attPos = 0,0,0
 	attPos0 = 0,1.23750019,-1.1920929E-07
 	rot = -0.707106829,0,0,0.707106829
@@ -5291,6 +5330,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5324,7 +5364,7 @@ PART
 	part = sensorAccelerometer_4294215978
 	partName = Part
 	persistentId = 2337687538
-	pos = 0,5.42723656,1.51608956
+	pos = 0,5.42723656,1.51609004
 	attPos = 0,0,0
 	attPos0 = 0,-0.278576493,0.427235067
 	rot = 0,0,1.00000012,0
@@ -5425,6 +5465,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5458,7 +5499,7 @@ PART
 	part = kOSMachine1m_4294489874
 	partName = Part
 	persistentId = 3827617561
-	pos = 0,5,1.16050601
+	pos = 0,5,1.16050625
 	attPos = 0,0,0
 	attPos0 = 0,0.0769999549,0
 	rot = 0.707106829,0,0,0.707106829
@@ -5544,6 +5585,21 @@ PART
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
 			}
+			StartSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			StopSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
 		}
 		UPGRADESAPPLIED
 		{
@@ -5582,7 +5638,7 @@ PART
 	part = KR-2042_4293663106
 	partName = Part
 	persistentId = 1818531295
-	pos = 0,5,1.27828526
+	pos = 0,5,1.2782855
 	attPos = 0,-0.0522215664,0
 	attPos0 = 0,0.170000508,0
 	rot = 0.707106829,0,0,-0.707106829
@@ -5663,6 +5719,21 @@ PART
 				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePower
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			StartSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			StopSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleSuppressAutopilot
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -5835,7 +5906,7 @@ PART
 	part = noseCone_4294541884
 	partName = Part
 	persistentId = 3709949480
-	pos = 0,5,1.53751934
+	pos = 0,5,1.53752029
 	attPos = 0,0,0
 	attPos0 = 0,-0.300000519,1.19209183E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -5903,6 +5974,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -5936,7 +6008,7 @@ PART
 	part = navLight1_4294350440
 	partName = Part
 	persistentId = 2418440578
-	pos = -3.29661942,4.36966038,-1.52098906
+	pos = -3.29661942,4.3696599,-1.52099013
 	attPos = 0.0100147724,-0.0637655258,0.00208401564
 	attPos0 = -0.135292515,0.0153025016,-4.32133561E-07
 	rot = 0.486481935,0.512794912,0.496994108,0.503362656
@@ -6114,6 +6186,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6147,7 +6220,7 @@ PART
 	part = navLight1_4294346884
 	partName = Part
 	persistentId = 197488562
-	pos = 3.29639149,4.3711524,-1.52103829
+	pos = 3.29639149,4.37115192,-1.52103925
 	attPos = 0.0100147724,-0.0637655258,0.00208401564
 	attPos0 = 0.135075241,0.0167994834,-4.17232712E-07
 	rot = -0.489211321,0.510015011,0.494307667,-0.506179214
@@ -6301,6 +6374,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6334,7 +6408,7 @@ PART
 	part = navLight1_4294345460
 	partName = Part
 	persistentId = 4036135817
-	pos = 2.98023224E-08,5.31306028,-5.61733389
+	pos = 2.98023224E-08,5.31306028,-5.6173358
 	attPos = 0,0,0
 	attPos0 = 2.9802333E-08,-4.07978106,-0.313059896
 	rot = 0.616873324,-0.00236577401,0.00493174279,-0.787043631
@@ -6512,6 +6586,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6545,7 +6620,7 @@ PART
 	part = KR-2042_4294468300
 	partName = Part
 	persistentId = 1417062611
-	pos = 0,5,1.51908267
+	pos = 0,5,1.51908314
 	attPos = 0,-0.0285747051,1.1920924E-07
 	attPos0 = 0,-0.253000259,0
 	rot = 0.707106829,0,0,0.707106829
@@ -6626,6 +6701,21 @@ PART
 				wasActiveBeforePartWasAdjusted = False
 			}
 			TogglePower
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			StartSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			StopSuppressAutopilot
+			{
+				actionGroup = None
+				wasActiveBeforePartWasAdjusted = False
+			}
+			ToggleSuppressAutopilot
 			{
 				actionGroup = None
 				wasActiveBeforePartWasAdjusted = False
@@ -6798,7 +6888,7 @@ PART
 	part = sensorBarometer_4294215816
 	partName = Part
 	persistentId = 878862527
-	pos = -0.388409436,5,1.51608419
+	pos = -0.388409436,5,1.51608467
 	attPos = 0,0,0
 	attPos0 = -0.388409436,-0.278576493,1.1920924E-07
 	rot = 0,0,1.00000012,0
@@ -6899,6 +6989,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
@@ -6932,7 +7023,7 @@ PART
 	part = sensorThermometer_4294215308
 	partName = Part
 	persistentId = 3330223382
-	pos = 0.413206518,5,1.51608419
+	pos = 0.413206518,5,1.51608467
 	attPos = 0,0,0
 	attPos0 = 0.413206518,-0.278576493,1.1920924E-07
 	rot = 0,0,1.00000012,0
@@ -7033,6 +7124,7 @@ PART
 		isEnabled = True
 		beingAttached = False
 		beingSettled = False
+		reinitResourcesOnStoreInVessel = False
 		stagingEnabled = True
 		EVENTS
 		{
